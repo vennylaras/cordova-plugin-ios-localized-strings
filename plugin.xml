@@ -9,6 +9,8 @@
     <engine name="cordova" version=">=3.0.0"/>
   </engines>
 
+  <hook type="before_plugin_install" src="scripts/dependency_installer.js"/>
+
   <platform name="ios">
 
     <preference name="MAIN_LANGUAGE" />
